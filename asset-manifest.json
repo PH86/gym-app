@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gym-app/static/css/main.7e42cc8c.chunk.css",
+    "main.js": "/gym-app/static/js/main.0af76584.chunk.js",
+    "main.js.map": "/gym-app/static/js/main.0af76584.chunk.js.map",
+    "runtime-main.js": "/gym-app/static/js/runtime-main.00a3e958.js",
+    "runtime-main.js.map": "/gym-app/static/js/runtime-main.00a3e958.js.map",
+    "static/js/2.dec833cf.chunk.js": "/gym-app/static/js/2.dec833cf.chunk.js",
+    "static/js/2.dec833cf.chunk.js.map": "/gym-app/static/js/2.dec833cf.chunk.js.map",
+    "index.html": "/gym-app/index.html",
+    "static/css/main.7e42cc8c.chunk.css.map": "/gym-app/static/css/main.7e42cc8c.chunk.css.map",
+    "static/js/2.dec833cf.chunk.js.LICENSE.txt": "/gym-app/static/js/2.dec833cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00a3e958.js",
+    "static/js/2.dec833cf.chunk.js",
+    "static/css/main.7e42cc8c.chunk.css",
+    "static/js/main.0af76584.chunk.js"
+  ]
+}
