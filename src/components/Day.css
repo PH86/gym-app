@@ -1,0 +1,88 @@
+:root {
+    --primary: #f00;
+    --secondary: #D7D4D3 ;
+}
+
+.week {
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: var(--primary);
+    font-size: 40px;
+}
+
+.day-container {
+    padding: 20px;
+    padding-top: 5px;
+
+    width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    max-width: 1000px;
+    min-height: 10vh;
+}
+
+.day-name,
+.day-time {
+    padding: 5px;
+    margin: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.day-container .btns,
+.day-container .btns--booked
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+}
+
+.btns {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+  
+    border: 5px #000;
+    cursor: pointer;
+    background-color: var(--primary);
+    color: #fff;
+    border: 1px solid var(--primary);
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+
+.btns:hover{
+background: #fff;
+color: #242424;
+transition: all 0.3s ease-out;
+}
+
+.btns--booked {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+  
+    border: 5px #000;
+    cursor: pointer;
+    background-color: var(--secondary);
+    color: #fff;
+    border: 1px solid var(--secondary);
+    padding: 8px 20px;
+    font-size: 20px;
+}
+

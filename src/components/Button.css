@@ -1,18 +1,18 @@
 :root {
-    --primary: #fff;
+    --primary: #f00;
 }
 
 .btn {
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
-    border: none;
+    border: 5px #000;
     cursor: pointer;
 }
 
 .btn--primary{
     background-color: var(--primary);
-    color: #242424;
+    color: #fff;
     border: 1px solid var(--primary);
 }
 
