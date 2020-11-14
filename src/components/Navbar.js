@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/gym-app' className='navbar-logo' onClick={closeMobileMenu}>
             <img src="https://thelabmmagym.com/wp-content/uploads/2019/11/banner-short.png" alt="gymLogo"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -36,7 +36,7 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/gym-app' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>

@@ -30,40 +30,40 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/gym-app'>Testimonials</Link>
+            <Link to='/gym-app'>Careers</Link>
+            <Link to='/gym-app'>Investors</Link>
+            <Link to='/gym-app'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/gym-app'>Contact</Link>
+            <Link to='/gym-app'>Support</Link>
+            <Link to='/gym-app'>Destinations</Link>
+            <Link to='/gym-app'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/gym-app'>Submit Video</Link>
+            <Link to='/gym-app'>Ambassadors</Link>
+            <Link to='/gym-app'>Agency</Link>
+            <Link to='/gym-app'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/gym-app'>Instagram</Link>
+            <Link to='/gym-app'>Facebook</Link>
+            <Link to='/gym-app'>Youtube</Link>
+            <Link to='/gym-app'>Twitter</Link>
           </div>
         </div>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/gym-app' className='social-logo'>
               THE LAB
             
               <i class="fas fa-child" />
@@ -73,7 +73,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='/gym-app'
               target='_blank'
               aria-label='Facebook'
             >
@@ -81,7 +81,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/gym-app'
               target='_blank'
               aria-label='Instagram'
             >
@@ -89,7 +89,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='/gym-app'
               target='_blank'
               aria-label='Youtube'
             >
@@ -97,7 +97,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/gym-app'
               target='_blank'
               aria-label='Twitter'
             >
@@ -105,7 +105,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/gym-app'
               target='_blank'
               aria-label='LinkedIn'
             >
