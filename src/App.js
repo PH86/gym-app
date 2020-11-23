@@ -17,10 +17,10 @@ function App() {
     <Navbar />
     <Switch>
       <Route path='/gym-app' exact component={Home} />
-      <Route path='/services' component={Services} />
+      <Route path='/gym-app/services' component={Services} />
 
-      <Route path='/timetable' component={Timetable} />
-      <Route path='/sign-up' component={SignUp} />
+      <Route path='/gym-app/timetable' component={Timetable} />
+      <Route path='/gym-app/sign-up' component={SignUp} />
     </Switch>
 <Footer />
 
